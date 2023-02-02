@@ -4,16 +4,20 @@ import { Styled } from "./style";
 const Header = () => {
   return (
     <>
-      <Styled.Link to="/">
-        <Styled.Header>
-          <div className="header-container">
+      <Styled.Header>
+        <div className="header-container">
+          <Styled.Link to="/">
             <div className="title">
-              <img src="images/lottecastle.png" alt="김해진영삼정그린코아" />
+              <img src="images/lottecastle.png" alt="창원롯데캐슬하버팰리스" />
             </div>
-            <div className="title-sub">모델하우스 1688-1206</div>
+          </Styled.Link>
+          <div className="title-sub">
+            <a href="tel:16881206">
+              <span>모델하우스 1688-1206</span>
+            </a>
           </div>
-        </Styled.Header>
-      </Styled.Link>
+        </div>
+      </Styled.Header>
 
       <Styled.MenuBar>
         <div className="menu-container">

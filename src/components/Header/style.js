@@ -29,12 +29,17 @@ export const Styled = {
       height: 8vh;
       border-radius: 7px;
       background-color: #95785e;
-      color: white;
       font-size: 2.5rem;
       @media screen and (max-width: 900px) {
         font-size: 4.5vw;
         margin: 0px 20px;
       }
+    }
+
+    a {
+      text-decoration: none;
+      color: white;
+      text-align: center;
     }
   `,
 
@@ -60,16 +65,16 @@ export const Styled = {
       font-weight: 500;
       font-size: 1.5rem;
       max-width: 250px;
-      width: 16vw;
-      height: 55px;
-      transition: all 0.4s;
+      /* width: 16vw; */
+      /* height: 55px; */
+      /* transition: all 0.4s; */
 
       :hover {
         color: #c8c8c8;
-        transition: all 0.4s;
+        /* transition: all 0.4s; */
       }
       @media screen and (max-width: 800px) {
-        font-size: 3vw;
+        font-size: 1rem;
       }
     }
   `,
