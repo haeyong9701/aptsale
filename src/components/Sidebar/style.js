@@ -4,7 +4,7 @@ export const Styled = {
   Bar: styled.div`
     position: fixed;
     bottom: 40%;
-    right: 8%;
+    right: 2%;
     width: 150px;
     height: 240px;
     font-size: 1.5rem;
