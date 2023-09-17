@@ -25,7 +25,7 @@ export const Styled = {
       justify-content: center;
       align-items: center;
       max-width: 260px;
-      width: 40vw;
+      width: 80vw;
       height: 12vh;
       border-radius: 7px;
       background-color: #363a4f;
@@ -33,6 +33,9 @@ export const Styled = {
       @media screen and (max-width: 900px) {
         font-size: 4.5vw;
         margin: 0px 20px;
+      }
+      @media screen and (max-width: 300px) {
+        width: 100vw;
       }
     }
 
