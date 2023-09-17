@@ -17,7 +17,7 @@ const Sidebar = () => {
           </a>
         </div>
         <div className="call">
-          <a href="tel:16881206">
+          <a href="tel:16889427">
             <div className="icon">
               <Icon size={"60"} icon={ic_call} />
             </div>

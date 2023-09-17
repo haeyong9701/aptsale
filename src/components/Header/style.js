@@ -6,7 +6,7 @@ export const Styled = {
     display: flex;
     justify-content: center;
     min-height: 150px;
-    background-color: #37282a;
+    background-color: white;
 
     .header-container {
       width: 1070px;
@@ -16,20 +16,20 @@ export const Styled = {
     }
 
     .title > img {
-      width: 100%;
-      height: 100%;
+      width: 50%;
+      height: 50%;
     }
 
     .title-sub {
       display: flex;
       justify-content: center;
       align-items: center;
-      max-width: 400px;
+      max-width: 260px;
       width: 40vw;
-      height: 8vh;
+      height: 12vh;
       border-radius: 7px;
-      background-color: #95785e;
-      font-size: 2.5rem;
+      background-color: #363a4f;
+      font-size: 2rem;
       @media screen and (max-width: 900px) {
         font-size: 4.5vw;
         margin: 0px 20px;
@@ -47,7 +47,7 @@ export const Styled = {
     display: flex;
     justify-content: space-around;
     height: 55px;
-    background-color: #95785e;
+    background-color: #363a4f;
 
     .menu-container {
       width: 1070px;

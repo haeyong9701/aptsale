@@ -8,12 +8,13 @@ const Header = () => {
         <div className="header-container">
           <Styled.Link to="/">
             <div className="title">
-              <img src="images/lottecastle.png" alt="창원롯데캐슬하버팰리스" />
+              <img src="images/logo.png" alt="김해구산푸르지오파크테르" />
             </div>
           </Styled.Link>
           <div className="title-sub">
-            <a href="tel:16881206">
-              <span>모델하우스 1688-1206</span>
+            <a href="tel:16889427">
+              <div className="title-sub-name">대표 문의</div>
+              <div>1688-9427</div>
             </a>
           </div>
         </div>
@@ -25,10 +26,10 @@ const Header = () => {
             <div className="menu">사업안내</div>
           </Styled.Link> */}
           <Styled.Link to="/sub2">
-            <div className="menu">브랜드</div>
+            <div className="menu">단지안내</div>
           </Styled.Link>
           <Styled.Link to="/sub3">
-            <div className="menu">위치정보</div>
+            <div className="menu">입지분석</div>
           </Styled.Link>
           {/* <Styled.Link to="/sub4">
             <div className="menu">청약일정</div>
