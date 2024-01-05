@@ -8,8 +8,7 @@ const Subpage3 = () => {
       <Header />
       <Styled.Body>
         <div className="image-container">
-          <img src="images/locate01.png" alt="입지분석01" />
-          <img src="images/locate02.png" alt="입지분석02" />
+          <img src="images/info01.png" alt="입지분석01" />
         </div>
       </Styled.Body>
       <Sidebar />

@@ -8,20 +8,12 @@ const Sidebar = () => {
   return (
     <>
       <Styled.Bar>
-        <div className="message">
-          <a href="sms:01093168671">
-            <div className="icon">
-              <Icon size={"60"} icon={ic_mail} />
-            </div>
-            <i class="fa-solid fa-envelope"></i>문자보내기
-          </a>
-        </div>
         <div className="call">
-          <a href="tel:16889427">
+          <a href="tel:16889427" className="call-box">
             <div className="icon">
               <Icon size={"60"} icon={ic_call} />
             </div>
-            전화상담
+            <div>전화 상담</div>
           </a>
         </div>
       </Styled.Bar>

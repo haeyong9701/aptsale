@@ -6,7 +6,7 @@ export const Styled = {
     display: flex;
     justify-content: center;
     min-height: 150px;
-    background-color: white;
+    background-color: #1a5153;
 
     .header-container {
       width: 1070px;
@@ -16,8 +16,8 @@ export const Styled = {
     }
 
     .title > img {
-      width: 50%;
-      height: 50%;
+      width: 95%;
+      height: 95%;
     }
 
     .title-sub {
@@ -28,7 +28,8 @@ export const Styled = {
       width: 80vw;
       height: 12vh;
       border-radius: 7px;
-      background-color: #363a4f;
+      background-color: #1a5153;
+      border: 2px solid white;
       font-size: 2rem;
       @media screen and (max-width: 900px) {
         font-size: 4.5vw;
@@ -50,7 +51,8 @@ export const Styled = {
     display: flex;
     justify-content: space-around;
     height: 55px;
-    background-color: #363a4f;
+    background-color: #1a5153;
+    border-top: 2px solid white;
 
     .menu-container {
       width: 1070px;
