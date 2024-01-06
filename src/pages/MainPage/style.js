@@ -39,11 +39,39 @@ export const Styled = {
       object-fit: cover;
     }
 
+    .main-description {
+      position: fixed;
+      bottom: 400px;
+      color: white;
+      font-weight: 600;
+      cursor: pointer;
+      font-size: 1.8rem;
+      background-color: #5e5f97;
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 400px;
+      height: 50px;
+      z-index: 1;
+    }
+
+    .main-description span {
+      color: #fcf82c;
+    }
+
     @media screen and (max-width: 700px) {
       .main-logo-box {
         margin-left: 50px;
         width: 300px;
         height: 500px;
+      }
+
+      .main-description {
+        margin-left: 50px;
+        width: 300px;
+        bottom: 450px;
+        font-size: 1.5rem;
       }
 
       .x-box {
