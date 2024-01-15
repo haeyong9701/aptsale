@@ -9,7 +9,6 @@ const Footer = () => {
           <div>사업명: 김해 삼계 푸르지오 센트럴파크</div>
           <div>사업지 주소: 경상남도 김해시 삼계동 1027-3번지 일원</div>
           <div>사이트 관리자: 조훈례</div>
-          <div>아이디: chr196667</div>
           <div>이메일: chr196667@naver.com</div>
           <div>전화번호 : 010-9316-8671</div>
           <div></div>
