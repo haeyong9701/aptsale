@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Styled = {
   Footer: styled.div`
-    height: 300px;
+    height: 320px;
     background-color: #35363a;
     display: flex;
     justify-content: center;
