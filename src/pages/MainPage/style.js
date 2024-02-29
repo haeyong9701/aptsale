@@ -12,7 +12,7 @@ export const Styled = {
     }
 
     .main-logo-box {
-      position: fixed;
+      position: absolute;
       width: 400px;
       cursor: pointer;
     }
