@@ -8,7 +8,7 @@ const Header = () => {
         <div className="header-container">
           <Styled.Link to="/">
             <div className="title">
-              <img src="images/logo.png" alt="김해구산푸르지오파크테르" />
+              <img src="images/logo1.png" alt="더샵신문그리니티" />
             </div>
           </Styled.Link>
           <div className="title-sub">

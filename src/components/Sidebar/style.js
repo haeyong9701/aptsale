@@ -8,7 +8,7 @@ export const Styled = {
     font-size: 1.5rem;
     color: white;
     font-weight: 600;
-    background-color: #1a5153;
+    background-color: #001241;
 
     .call-box {
       gap: 10px;

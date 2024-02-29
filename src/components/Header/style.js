@@ -6,7 +6,7 @@ export const Styled = {
     display: flex;
     justify-content: center;
     min-height: 150px;
-    background-color: #1a5153;
+    background-color: #001241;
 
     .header-container {
       width: 1070px;
@@ -28,7 +28,7 @@ export const Styled = {
       width: 80vw;
       height: 12vh;
       border-radius: 7px;
-      background-color: #1a5153;
+      background-color: #001241;
       border: 2px solid white;
       font-size: 2rem;
       @media screen and (max-width: 900px) {
@@ -51,7 +51,7 @@ export const Styled = {
     display: flex;
     justify-content: space-around;
     height: 55px;
-    background-color: #1a5153;
+    background-color: #001241;
     border-top: 2px solid white;
 
     .menu-container {
