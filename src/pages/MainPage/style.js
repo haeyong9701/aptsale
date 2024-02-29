@@ -12,12 +12,9 @@ export const Styled = {
     }
 
     .main-logo-box {
-      cursor: pointer;
-      display: flex;
       position: fixed;
       width: 400px;
-      height: 600px;
-      top: 10px;
+      cursor: pointer;
     }
 
     .main-logo {
@@ -26,13 +23,14 @@ export const Styled = {
     }
 
     .x-box {
-      position: relative;
-      right: 33px;
-      width: 10%;
-      height: 10%;
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 35px;
+      height: 35px;
     }
 
-    img {
+    .main-image {
       padding: 15px 0px;
       max-width: 1070px;
       width: 100vw;
@@ -40,14 +38,13 @@ export const Styled = {
     }
 
     .main-description {
-      position: fixed;
-      bottom: 400px;
+      position: absolute;
+      bottom: 190px;
       color: white;
       font-weight: 600;
       cursor: pointer;
       font-size: 1.8rem;
-      background-color: #5e5f97;
-      text-align: center;
+      background-color: #001241;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -64,7 +61,6 @@ export const Styled = {
       .main-logo-box {
         margin-left: 50px;
         width: 300px;
-        height: 500px;
       }
 
       .main-description {
@@ -75,9 +71,14 @@ export const Styled = {
       }
 
       .x-box {
-        right: 35px;
-        width: 13%;
-        height: 13%;
+        width: 28px;
+        height: 28px;
+      }
+
+    @media screen and (max-width: 375px) {
+      .main-logo-box {
+        margin-left: 20px;
+        width: 250px;
       }
     }
   `,
