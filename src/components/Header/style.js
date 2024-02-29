@@ -30,13 +30,15 @@ export const Styled = {
       border-radius: 7px;
       background-color: #001241;
       border: 2px solid white;
-      font-size: 2rem;
-      @media screen and (max-width: 900px) {
-        font-size: 4.5vw;
+      font-size: 32px;
+      @media screen and (max-width: 700px) {
+        font-size: 16px;
+        height: 7vh;
+        width: 150vw;
         margin: 0px 20px;
       }
-      @media screen and (max-width: 300px) {
-        width: 100vw;
+      @media screen and (max-width: 375px) {
+        font-size: 12px;
       }
     }
 

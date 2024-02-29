@@ -1,7 +1,6 @@
 import React from "react";
 import { Styled } from "./style";
 import { Icon } from "react-icons-kit";
-import { ic_mail } from "react-icons-kit/md/ic_mail";
 import { ic_call } from "react-icons-kit/md/ic_call";
 
 const Sidebar = () => {
