@@ -39,7 +39,8 @@ export const Styled = {
 
     .main-description {
       position: absolute;
-      bottom: 190px;
+      left: 0;
+      bottom: 140px;
       color: white;
       font-weight: 600;
       cursor: pointer;
@@ -59,15 +60,13 @@ export const Styled = {
 
     @media screen and (max-width: 700px) {
       .main-logo-box {
-        margin-left: 50px;
+        margin-top: 30px;
         width: 300px;
       }
 
       .main-description {
-        margin-left: 50px;
         width: 300px;
-        bottom: 450px;
-        font-size: 1.5rem;
+        bottom: 110px;
       }
 
       .x-box {
@@ -77,8 +76,14 @@ export const Styled = {
 
       @media screen and (max-width: 375px) {
         .main-logo-box {
-          margin-left: 20px;
+          margin-top: 0px;
           width: 250px;
+        }
+
+        .main-description {
+          width: 250px;
+          bottom: 90px;
+          font-size: 1.6rem;
         }
       }
     }

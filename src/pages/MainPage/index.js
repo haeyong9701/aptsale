@@ -20,9 +20,9 @@ const Mainpage = () => {
               <div className="main-logo-box" onClick={handleImageClick}>
                 <img className="main-logo" src="images/popup.png" alt="팝업" />
                 <img className="x-box" src="images/x-box.png" alt="x-box" />
-                {/* <div className="main-description" onClick={handleImageClick}>
-                  24시간 대표콜센터<span>&nbsp;1688-9427</span>
-                </div> */}
+                <div className="main-description" onClick={handleImageClick}>
+                  대표 번호<span>&nbsp;1688-9427</span>
+                </div>
               </div>
             </>
           )}
