@@ -75,10 +75,11 @@ export const Styled = {
         height: 28px;
       }
 
-    @media screen and (max-width: 375px) {
-      .main-logo-box {
-        margin-left: 20px;
-        width: 250px;
+      @media screen and (max-width: 375px) {
+        .main-logo-box {
+          margin-left: 20px;
+          width: 250px;
+        }
       }
     }
   `,
