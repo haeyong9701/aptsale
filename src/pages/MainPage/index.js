@@ -18,7 +18,7 @@ const Mainpage = () => {
           {on && (
             <>
               <div className="main-logo-box" onClick={handleImageClick}>
-                <img className="main-logo" src="images/popup.png" alt="팝업" />
+                <img className="main-logo" src="images/popup01.png" alt="팝업" />
                 <img className="x-box" src="images/x-box.png" alt="x-box" />
                 <a href="tel:16889427">
                   <div className="main-description">
