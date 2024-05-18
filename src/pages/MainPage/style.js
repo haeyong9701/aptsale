@@ -9,12 +9,15 @@ export const Styled = {
     .image-container {
       display: flex;
       flex-direction: column;
+      position: relative;
     }
 
     .main-logo-box {
       position: absolute;
       width: 400px;
       cursor: pointer;
+      top: 150px;
+      left: 50px;
     }
 
     .main-logo {
@@ -26,8 +29,8 @@ export const Styled = {
       position: absolute;
       top: 0;
       right: 0;
-      width: 35px;
-      height: 35px;
+      width: 30px;
+      height: 30px;
     }
 
     .main-image {
@@ -40,7 +43,7 @@ export const Styled = {
     .main-description {
       position: absolute;
       left: 0;
-      bottom: 140px;
+      bottom: -35px;
       color: white;
       font-weight: 600;
       cursor: pointer;
@@ -60,30 +63,27 @@ export const Styled = {
 
     @media screen and (max-width: 700px) {
       .main-logo-box {
-        margin-top: 30px;
+        top: 50px;
+        left: 50px;
         width: 300px;
       }
 
       .main-description {
         width: 300px;
-        bottom: 110px;
+        height: 40px;
+        bottom: -25px;
+        font-size: 1.4rem;
       }
 
       .x-box {
-        width: 28px;
-        height: 28px;
+        width: 24px;
+        height: 24px;
       }
 
       @media screen and (max-width: 375px) {
         .main-logo-box {
-          margin-top: 0px;
-          width: 250px;
-        }
-
-        .main-description {
-          width: 250px;
-          bottom: 90px;
-          font-size: 1.6rem;
+          top: 30px;
+          left: 10px;
         }
       }
     }
