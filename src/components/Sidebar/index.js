@@ -12,7 +12,7 @@ const Sidebar = () => {
             <div className="icon">
               <Icon size={"60"} icon={ic_call} />
             </div>
-            <div>전화 상담</div>
+            <div>모델하우스 위치 안내</div>
           </a>
         </div>
       </Styled.Bar>
