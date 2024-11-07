@@ -14,7 +14,7 @@ const Header = () => {
           <div className="title-sub">
             <a href="tel:16889427">
               <div className="title-sub-name">대표 문의</div>
-              <div>1688-9427</div>
+              <div>1688-6331</div>
             </a>
           </div>
         </div>

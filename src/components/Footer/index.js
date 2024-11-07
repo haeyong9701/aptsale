@@ -15,7 +15,7 @@ const Footer = () => {
         </div>
         <div className="title">김해 더샵 신문 그리니티</div>
         <div className="sub-title">
-          대표번호 <span className="phone-number">1688 - 9427</span>
+          대표번호 <span className="phone-number">1688 - 6331</span>
         </div>
       </Styled.Footer>
     </>

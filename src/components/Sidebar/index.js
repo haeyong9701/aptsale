@@ -8,7 +8,7 @@ const Sidebar = () => {
     <>
       <Styled.Bar>
         <div className="call">
-          <a href="tel:16889427" className="call-box">
+          <a href="tel:16886331" className="call-box">
             <div className="icon">
               <Icon size={"60"} icon={ic_call} />
             </div>
