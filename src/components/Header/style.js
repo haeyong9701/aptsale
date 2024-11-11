@@ -2,59 +2,60 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 export const Styled = {
-  Header: styled.div`
-    display: flex;
-    justify-content: center;
-    min-height: 150px;
-    background-color: #001241;
+  Screen: styled.div`
+    background-image: url("images/main00.png");
+    background-size: cover;
+    height: 100vh;
 
-    .header-container {
-      width: 1070px;
+    .description {
       display: flex;
-      justify-content: space-around;
-      align-items: center;
-    }
-
-    .title > img {
-      width: 95%;
-      height: 95%;
-    }
-
-    .title-sub {
-      display: flex;
+      flex-direction: column;
       justify-content: center;
       align-items: center;
-      max-width: 260px;
-      width: 80vw;
-      height: 12vh;
-      border-radius: 7px;
-      background-color: #001241;
-      border: 2px solid white;
-      font-size: 32px;
-      @media screen and (max-width: 700px) {
-        font-size: 16px;
-        height: 7vh;
-        width: 150vw;
-        margin: 0px 20px;
-      }
-      @media screen and (max-width: 375px) {
-        font-size: 12px;
-      }
-    }
+      gap: 30px;
+      height: 60vh;
 
-    a {
-      text-decoration: none;
-      color: white;
-      text-align: center;
+      .title {
+        font-size: 2.3rem;
+        font-weight: 800;
+        color: #001241;
+
+        @media screen and (max-width: 800px) {
+          font-size: 1.7rem;
+        }
+      }
+      .call-title {
+        font-size: 1.4rem;
+        font-weight: 700;
+        color: #ff5b49;
+
+        @media screen and (max-width: 800px) {
+          font-size: 1.2rem;
+        }
+      }
+      .call-button {
+        font-size: 1.4rem;
+        font-weight: 600;
+        color: white;
+        background-color: #16dd16;
+        padding: 10px 20px;
+        border-radius: 10px;
+        text-decoration: none;
+        cursor: pointer;
+
+        @media screen and (max-width: 800px) {
+          font-size: 1.2rem;
+          padding: 8px 17px;
+        }
+      }
     }
   `,
 
   MenuBar: styled.div`
     display: flex;
     justify-content: space-around;
-    height: 55px;
-    background-color: #001241;
-    border-top: 2px solid white;
+    height: 80px;
+    border-bottom: 1px solid #001241;
 
     .menu-container {
       width: 1070px;
@@ -68,18 +69,11 @@ export const Styled = {
       justify-content: center;
       align-items: center;
       cursor: pointer;
-      color: white;
-      font-weight: 500;
+      color: #001241;
+      font-weight: 600;
       font-size: 1.5rem;
       max-width: 250px;
-      /* width: 16vw; */
-      /* height: 55px; */
-      /* transition: all 0.4s; */
 
-      :hover {
-        color: #c8c8c8;
-        /* transition: all 0.4s; */
-      }
       @media screen and (max-width: 800px) {
         font-size: 1rem;
       }

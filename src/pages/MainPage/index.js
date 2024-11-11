@@ -15,7 +15,6 @@ const Mainpage = () => {
       <Header />
       <Styled.Body>
         <div className="image-container">
-          <img className="main-image" src="images/main00.png" alt="메인페이지설명" />
           <img className="main-image" src="images/info02.png" alt="메인페이지설명" />
           <img className="main-image" src="images/info03.png" alt="메인페이지설명" />
           <img className="main-image" src="images/info01.png" alt="메인페이지설명" />
