@@ -13,7 +13,6 @@ const Footer = () => {
           <div>전화번호 : 010-9316-8671</div>
           <div></div>
         </div>
-        <div className="title">쌍용 더 플래티넘 삼계</div>
         <div className="sub-title">
           대표번호 <span className="phone-number">1688 - 6331</span>
         </div>
